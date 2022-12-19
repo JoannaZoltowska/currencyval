@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+form__labelText {
+  text-align: left;
+  background-color: coral;
+  margin-right: 20px;
+}
+
+.body {
+  background-image: url(../images/tlotlo.png);
+  opacity: 1;
+}
